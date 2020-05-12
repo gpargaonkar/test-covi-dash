@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import WorldCount from './components/WorldCount/WorldCount';
 import CountryCount from './components/CountryCount/CountryCount';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 
 class App extends Component {
 
@@ -14,8 +14,8 @@ class App extends Component {
             <Router>
                 <Header />
                 <Switch>
-                        <Route path={process.env.PUBLIC_URL+'/'} exact  component={WorldCount} />
-                        <Route path='/country' exact component={CountryCount} />
+                        <Route path={'/'} exact  component={WorldCount} />
+                        <Route path={'/country'} exact component={CountryCount} />
                 </Switch>
             </Router>
         );
