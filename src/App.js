@@ -11,11 +11,11 @@ class App extends Component {
     render() {
 
         return (
-            <Router basename={'/'}>
+            <Router basename={`${process.env.PUBLIC_URL}/`}>
                 <Header />
                 <Switch>
-                        <Route path="/" exact  component={WorldCount} />
-                        <Route path="/country" exact component={CountryCount} />
+                        <Route path={process.env.PUBLIC_URL+'/'} exact  component={WorldCount} />
+                        <Route path={process.env.PUBLIC_URL+'/country'} exact component={CountryCount} />
                 </Switch>
             </Router>
         );
