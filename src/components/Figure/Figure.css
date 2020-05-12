@@ -1,0 +1,16 @@
+.figure{
+    display: inline-block;
+    padding: 1em;
+    width: 100px;
+}
+
+.number{
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.text{
+    font-size: 1em;
+    font-weight: bold;
+}
