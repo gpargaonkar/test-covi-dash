@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/test-covi-dash/static/css/main.e24a9153.chunk.css",
-    "main.js": "/test-covi-dash/static/js/main.12f440df.chunk.js",
-    "main.js.map": "/test-covi-dash/static/js/main.12f440df.chunk.js.map",
+    "main.js": "/test-covi-dash/static/js/main.337daa3d.chunk.js",
+    "main.js.map": "/test-covi-dash/static/js/main.337daa3d.chunk.js.map",
     "runtime-main.js": "/test-covi-dash/static/js/runtime-main.14d8ed82.js",
     "runtime-main.js.map": "/test-covi-dash/static/js/runtime-main.14d8ed82.js.map",
     "static/js/2.6ed7832f.chunk.js": "/test-covi-dash/static/js/2.6ed7832f.chunk.js",
     "static/js/2.6ed7832f.chunk.js.map": "/test-covi-dash/static/js/2.6ed7832f.chunk.js.map",
     "index.html": "/test-covi-dash/index.html",
-    "precache-manifest.71f251643b438a7227e3db1f5e191577.js": "/test-covi-dash/precache-manifest.71f251643b438a7227e3db1f5e191577.js",
+    "precache-manifest.513d171db58cfde7b17b75a80b5b6948.js": "/test-covi-dash/precache-manifest.513d171db58cfde7b17b75a80b5b6948.js",
     "service-worker.js": "/test-covi-dash/service-worker.js",
     "static/css/main.e24a9153.chunk.css.map": "/test-covi-dash/static/css/main.e24a9153.chunk.css.map",
     "static/js/2.6ed7832f.chunk.js.LICENSE.txt": "/test-covi-dash/static/js/2.6ed7832f.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.14d8ed82.js",
     "static/js/2.6ed7832f.chunk.js",
     "static/css/main.e24a9153.chunk.css",
-    "static/js/main.12f440df.chunk.js"
+    "static/js/main.337daa3d.chunk.js"
   ]
 }
