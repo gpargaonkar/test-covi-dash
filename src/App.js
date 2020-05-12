@@ -15,7 +15,7 @@ class App extends Component {
                 <Header />
                 <Switch>
                         <Route path={process.env.PUBLIC_URL+'/'} exact  component={WorldCount} />
-                        <Route path={process.env.PUBLIC_URL+'/country'} exact component={CountryCount} />
+                        <Route path='/country' exact component={CountryCount} />
                 </Switch>
             </Router>
         );
