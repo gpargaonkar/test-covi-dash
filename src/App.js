@@ -11,7 +11,7 @@ class App extends Component {
     render() {
 
         return (
-            <Router basename={`${process.env.PUBLIC_URL}/`}>
+            <Router basename={'/'}>
                 <Header />
                 <Switch>
                         <Route path="/" exact  component={WorldCount} />
