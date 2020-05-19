@@ -34,7 +34,7 @@ class CountryCount extends Component {
     getAllCountry() {
         getAllCountry()
             .then((data) => {
-                console.log("Promise Data", data)
+                //console.log("CCCCC Promise Data", data.map(ele => ele.country))
                 this.setState({
                     ...this.state,
                     allCountry: data,
@@ -52,7 +52,7 @@ class CountryCount extends Component {
 
     render() {
 
-        console.log("COUNTRY CHART PROPS 1", this.state.selected)
+        //console.log("COUNTRY CHART PROPS 1", this.state.selected)
 
         return (
             <div className="dashboard-wrapper">
@@ -61,7 +61,7 @@ class CountryCount extends Component {
                     countrySelectedCallbackFunction={this.countrySelectedCallbackFunction} />
                 <div className="dashboard">
                     <AllFigure country={this.state.selectedCountry} />
-                    <CountryChart selectedCountry={this.state.selected} />
+                    <CountryChart selectedCountry={this.state.selected==="USA"?"US":this.state.selected} />
                 </div>
             </div>
         )

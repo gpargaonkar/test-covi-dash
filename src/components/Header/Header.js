@@ -6,9 +6,14 @@ function Header() {
     return (
         <div className="header">
             <h1>COVI-DASH</h1>
-            <Link to="/country">
-                <div>See country specific data</div>
-            </Link>
+            <div className="nav-links">
+                <Link to="/" className="link">
+                    <div>WORLD</div>
+                </Link>
+                <Link to="/country" className="link">
+                    <div>COUNTRY</div>
+                </Link>
+            </div>
         </div>
     )
 }

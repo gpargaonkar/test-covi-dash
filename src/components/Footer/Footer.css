@@ -1,0 +1,12 @@
+.footer{
+    display: flex;
+    color: blanchedalmond;
+    flex-direction: column;
+    background-color: rgb(90, 90, 90);
+    height: 70px;
+    padding: 10px;
+}
+
+.ds{
+    color: blanchedalmond;
+}

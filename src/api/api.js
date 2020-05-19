@@ -40,9 +40,9 @@ export const getOverallDetails = () => {
 
 //fetching historical world data 
 
-export const getOverallHistoricalData = () => {
+export const getOverallHistoricalData = (days) => {
     return new Promise(function(resolve, reject){
-        axios.get(`https://disease.sh/v2/historical/all?lastdays=60`)
+        axios.get(`https://disease.sh/v2/historical/all?lastdays=${days}`)
         .then( res => {
             console.log("Res from axios world data date wise", res)
             resolve(res.data)

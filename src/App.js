@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import WorldCount from './components/WorldCount/WorldCount';
 import CountryCount from './components/CountryCount/CountryCount';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
 
@@ -12,11 +13,14 @@ class App extends Component {
 
         return (
             <Router>
-                <Header />
-                <Switch>
-                        <Route path={'/'} exact  component={WorldCount} />
+                <div className="App">
+                    <Header />
+                    <Switch>
+                        <Route path={'/'} exact component={WorldCount} />
                         <Route path={'/country'} exact component={CountryCount} />
-                </Switch>
+                    </Switch>
+                    <Footer />
+                </div>
             </Router>
         );
     }
