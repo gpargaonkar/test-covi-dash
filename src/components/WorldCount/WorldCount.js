@@ -136,7 +136,7 @@ class WorldCount extends Component {
                                 </div>
                             </div>
                         </div> :
-                        <div className="loading"></div>
+                        <div className="loading">Loading..</div>
                 }
             </div>
         )
